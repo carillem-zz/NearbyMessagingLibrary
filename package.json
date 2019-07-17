@@ -9,7 +9,7 @@
   "keywords": [
     "react-native"
   ],
-  "author": "Carille Mendoza",
+  "author": "Carille Mendoza <cmend429@mtroyal.ca> (https://github.com/carillem)",
   "license": "MIT",
   "devDependencies": {
     "react-native": "0.41.2"
