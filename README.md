@@ -4,21 +4,23 @@ This library is a wrapper for Google's Nearby Messaging API with notifications a
 
 ## Getting started
 
-### NPM
+### 1. Download library
+#### NPM
 
 `$ yarn add react-native-nearby-messaging-library-with-notifications` or `$ npm install -i react-native-nearby-messaging-library-with-notifications`
 
-### Github
+#### Github
 
-`$ npm install react-native-nearby-messaging-library --save` or `$ yarn add react-native-nearby-messaging-library`
+`$ yarn add react-native-nearby-messaging-library` or `$ npm install react-native-nearby-messaging-library --save`
 
-### Mostly automatic installation
+### 2. Link library to project
+#### Mostly automatic installation
 
 `$ react-native link react-native-nearby-messaging-library`
 
-### Manual installation
+#### Manual installation
 
-#### Android: Complete
+##### Android: Complete
 
 1. Open up `android/app/src/main/java/[...]/MainApplication.java`
   - Add `import com.reactlibrary.RNNearbyMessagingLibraryPackage;` to the imports at the top of the file
@@ -33,7 +35,7 @@ This library is a wrapper for Google's Nearby Messaging API with notifications a
       implementation project(':react-native-nearby-messaging-library')
   	```
 
-#### iOS: In progress
+##### iOS: In progress
 
 1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
 2. Go to `node_modules` ➜ `react-native-nearby-messaging-library` and add `RNNearbyMessagingLibrary.xcodeproj`
